@@ -8,12 +8,21 @@
 }
 
 .hero-input {
-    width: 800px;
+    width: 80%;
     height: 50px;
-    padding: 20px;
-    margin: 10px;
-    border-radius: 8px; //curved edges
+    padding: 16px;
+    border-radius: 8px;
     border: none;
+  }
+
+  .hero-heading {
+    font-size: 24px;
+    font-weight: bold;
+}
+  
+.hero-subheading {
+    font-size: 24px;
+    font-weight: 100;
 }
 
 .tile-text {
@@ -28,6 +37,17 @@
     height: 100%;
 }
 
+.tile {
+    cursor: pointer;
+}
+
+.tile-text-border {
+    background-color: black;
+    width: 303.2px;
+    height: 90px;
+    position: absolute;
+}
+
 footer {
     background: #f1f1f1;
     width: 100%;
@@ -36,8 +56,4 @@ footer {
     vertical-align: bottom;
     margin-top: 40px;
     text-align: center;
-}
-
-.tile {
-    cursor: pointer;
 }
