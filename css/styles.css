@@ -30,15 +30,13 @@
     z-index: 1;
     text-transform: uppercase;
     letter-spacing: 2px;
-}
-
-.tile img {
-    width: 100%;
-    height: 100%;
+    color: white;
 }
 
 .tile {
     cursor: pointer;
+    overflow: hidden;
+    border-radius: 8px;
 }
 
 .tile-text-border {
@@ -46,6 +44,18 @@
     width: 303.2px;
     height: 90px;
     position: absolute;
+}
+
+.tile-image {
+    /* width: 100%;
+    height: 100%; */
+    border-radius: 8px;
+    transition: all 0.2s ;
+}
+
+.tile-image:hover {
+    filter: brightness(50%);
+    transform: scale(1.1);
 }
 
 footer {
